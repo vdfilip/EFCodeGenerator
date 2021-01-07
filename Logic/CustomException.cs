@@ -57,6 +57,7 @@ namespace EFCodeGenerator.Logic
         {
             var message = string.Format(text, args);
             var ex = new CustomException(message, inner);
+            
             return ex;
         }
     }
