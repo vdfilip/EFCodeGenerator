@@ -32,6 +32,8 @@ namespace EFCodeGenerator
 
                 Console.WriteLine($"Code generated in {sw.ElapsedMilliseconds} ms in folder: {outputPath}");
                 Console.ReadKey();
+                
+                //test
             }
         }
     }
